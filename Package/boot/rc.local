@@ -1,7 +1,6 @@
 # Put your custom commands here that should be executed once
 # the system init finished. By default this file does nothing.
 
-sleep 30
+sleep 1
 screen -dmS drsh /root/Drcom.sh > /dev/null
 echo Executed >> /tmp/signal
-exit 0
